@@ -121,7 +121,7 @@ describe UsersController do
       end
       
       it "should sign the user in" do
-        post :create, :users => @attr
+        post :create, :user => @attr
         controller.should be_signed_in
       end
       

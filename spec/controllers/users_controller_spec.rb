@@ -223,7 +223,6 @@ describe UsersController do
         response.should redirect_to(signin_path)
       end
     end
-  end
   
   describe "for signed-in users" do
   
@@ -243,7 +242,6 @@ describe UsersController do
       end
     end
   end
-
-  
 end
+
 
